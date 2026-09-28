@@ -1,1 +1,46 @@
 a.out
+## Build and output directories
+[Bb]in/
+[Ob]j/
+[Lls]og/
+[Lls]ogs/
+build/
+bin/
+obj/
+
+## User-specific files and settings
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.workspace
+
+## Visual Studio / IDE temporary files
+.vs/
+.idea/
+.vscode/
+*.swp
+*~
+
+## NuGet / Package restore artifacts
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+## Testing and Coverage outputs
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Environment variables and secret settings
+appsettings*.local.json
+appsettings.Development.json
+*.env
+
+## OS generated files
+.DS_Store
+Thumbs.db
